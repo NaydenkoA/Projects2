@@ -1,0 +1,9 @@
+﻿  Main.cpp
+C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\Main.cpp(11,10): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\Main.cpp(14,10): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\Main.cpp(17,10): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+  ShtrassenMethod.cpp
+C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\ShtrassenMethod.cpp(6,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\ShtrassenMethod.cpp(22,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Создание кода...
+  MatrixMultiplivationComparison.vcxproj -> C:\Users\PC\Desktop\prog\Project\MatrixMultiplivationComparison\MatrixMultiplivationComparison\Debug\MatrixMultiplivationComparison.exe
