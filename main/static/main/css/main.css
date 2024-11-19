@@ -1,0 +1,106 @@
+#Name1
+{width: 19%;
+height: auto;
+font-size: 10em;
+font-family: Impact,Calibri;
+color: white;
+background-color: black;}
+
+#Name2
+{width: auto;
+height: auto;
+text-align: center;
+font-size: 10em;}
+
+.Border
+{border:5px solid;}
+
+#Menu
+{width: auto;
+height: 60px;
+background-color: #eee;}
+
+#Menu1
+{width: 23%;
+padding-left:10px;
+padding-top:12px;
+font-size: 26px;}
+
+#Menu2
+{width: 23%;
+padding-left:90px;
+padding-top:12px;
+font-size: 26px;}
+
+#Menu3
+{width: 23%;
+padding-left:150px;
+padding-top:12px;
+font-size: 26px;}
+
+#Middle
+{padding-left:200px;
+padding-right:200px;}
+
+p
+{font-size:25px;
+font-family:Mongolian Baiti,Calibri;}
+
+h2
+{font-size:35px;
+font-family:Mongolian Baiti,Calibri;
+text-align:center;}
+
+h3
+{font-size:25px;
+font-family:Mongolian Baiti,Calibri;
+text-align:center;}
+
+.Examples
+{border:2px solid;
+background-color: #C0C0C0;
+font-size:28px;
+font-family:Mongolian Baiti,Calibri;}
+
+.TableBorder
+{border: 2px solid;}
+
+#MenuDop1
+{width: 23%;
+font-size: 26px;}
+
+#MenuDop2
+{width: 23%;
+font-size: 26px;}
+
+#MenuDop3
+{width: 23%;
+font-size: 26px;}
+
+#Tester1
+{width: 600px;
+height: 550px;
+padding-left: 100px;}
+
+#Tester2
+{width: 400px;
+height: 550px;}
+
+#TestTable
+{border: 2px solid;
+width: 300px;
+height: 300px;}
+
+canvas
+{border: 2px solid;}
+
+#Sun
+{position:relative;
+ left: 200px;
+ top: 150px;}
+
+#Earth
+{position:relative;
+ left: 275px;
+ top: 0px;
+}

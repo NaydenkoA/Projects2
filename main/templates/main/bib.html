@@ -1,0 +1,25 @@
+{% extends 'main/layout.html' %}
+
+{% block content%}
+    <h2>Бібліотека</h2>
+    {% if books %}
+        {% for el in books %}
+            <p><div class="Examples">
+            <h4>[{{ el.id }}] <a href="{{el.file.url}}">{{el.title}}</a></h4>
+            <p>Автор: {{el.author}}   <a href="{{el.file.url}}" download>Скачать</a></p>
+        </div></p>
+        {% endfor %}
+    {% else %}
+        <p>Наразі бібліотека порожня</p>
+    {% endif %}
+    <p>Ви можете додати свої книги сюди</p>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="Border">
+            <p><label>Назва книги (яка буде відображатись) </label><input type = "text" name ="title"></p>
+            <p><label>Автори </label><input type = "text" name ="author"></p>
+            <p><label>Файл </label><input type = "file" name ="file"></p>
+            <p><button type="submit">Додати</button></p>
+        </div>
+    </form>
+{% endblock %}
